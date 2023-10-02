@@ -51,4 +51,17 @@ Para realizar un hola mundo tendremos qu crear un index.html en la carpeta htdoc
     <body>
         <h1>Hola mundo</h1>
     </body>
-    </html>```
+    </html>
+```
+<br>
+
+### 6. Crea otro contenedor 'dam_web2' con el mismo volumen y a otro puerto, por ejemplo 9080.
+Para esto utilizaremos el mismo comando que usamos en el ejercicio 4 pero cambiando el puerto es decir el comando quedaria tal que asi `docker run -dit --name dam_web2 -p 9080:80 -v /home/dam2/Documentos/Volumenes/htdocs:/usr/local/apache2/htdocs httpd:2.4`
+
+<br>
+
+### 7. Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador: 
+Para comprobar que funcionan nos iremos al navegador y simplemente tendremos que escribir nuestra ip o localhost con el puerto 9080 y 8000
+
+
+
