@@ -61,7 +61,10 @@ Para esto utilizaremos el mismo comando que usamos en el ejercicio 4 pero cambia
 <br>
 
 ### 7. Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador: 
-Para comprobar que funcionan nos iremos al navegador y simplemente tendremos que escribir nuestra ip o localhost con el puerto 9080 y 8000
+Para comprobar que funcionan nos iremos al navegador y simplemente tendremos que escribir nuestra ip o localhost con el puerto 9080 y 8000. 
 
 
+<br>
 
+
+### 8. 
