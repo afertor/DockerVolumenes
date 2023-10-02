@@ -67,4 +67,5 @@ Para comprobar que funcionan nos iremos al navegador y simplemente tendremos que
 <br>
 
 
-### 8. 
+### 8. Realiza modificaciones de la página y comprueba que los dos servidores 'sirven' la misma página
+Para esto nos iremos a nuestro archivo index.html que ya creamos previamente y por ejemplo podríamos cambiar el h1 y podríamos poner "Buenos días" lo guardaremos y cerraremos, y al entrar al navegador de nuevo debería mostrarnos "Buenos días" si todo se ha hecho de manera correcta. Para comprobarlo haremos lo mismo que hicimos en ejrcicios anteriores para que nos muestre en el navegador que todo funciona correctamente.
