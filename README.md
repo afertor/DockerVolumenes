@@ -31,3 +31,24 @@ Para esto debemos introducir nuestra ip en el navegador. Si no sabemos cual es p
 ### 4. Utiliza bind mount para que el directorio del apache2 'htdocs' este montado un directorio que tu elijas. 
 Primero debemos borrar el contenedor con el comando `docker rm dam_web1` (recuerda parar el contenedor antes de borrarlo) para poder montar el htdocs en el directorio que queramos.
 Despues usaremos el siguiente comando `docker run -dit --name dam_web1 -p 8000:80 -v /home/dam2/Documentos/Volumenes/htdocs:/usr/local/apache2/htdocs httpd:2.4` que sería el mismo que utilizamos en el ejercicio 2 solo que estariamos añadiendo -v y la ruta del directorio en el que queremos montar el htdocs.
+
+Para comprobar que ha funcionado simplemente tendriamos que poner nustra ip en el navegador junto al puerto como por ejemplo: `localhost:8000`
+
+<br>
+
+### 5.Realiza un 'hola mundo' en html (usa Code) y comprueba que accedes desde el navegador.
+
+Para realizar un hola mundo tendremos qu crear un index.html en la carpeta htdocs y escribir una estructura html como por ejemplo la siguiente: 
+``` html
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Hola mundo</h1>
+    </body>
+    </html>```
